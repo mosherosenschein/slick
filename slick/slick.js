@@ -1368,9 +1368,9 @@
                     'role': 'tab',
                     'id': 'slick-slide-control' + _.instanceUid + i,
                     'aria-controls': 'slick-slide' + _.instanceUid + mappedSlideIndex,
-                    'aria-label': (i + 1) + ' of ' + numDotGroups,
+                    'aria-label': (i + 1) + ' / ' + numDotGroups,
                     'aria-selected': null,
-                    'tabindex': '-1'
+                    'tabindex': '0'
                 });
 
             }).eq(_.currentSlide).find('button').attr({
